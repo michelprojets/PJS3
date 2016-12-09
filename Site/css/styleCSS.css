@@ -1,0 +1,51 @@
+/*style css*/
+
+body{
+	background-image:url("../images/groenland.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+[class*="col-"], #page{
+	background-color: transparent;
+	border-style:solid;
+	border-color:yellow;
+	border-width:5px;
+	border-radius:2px;
+	text-align: center;
+	color:yellow;
+	font-weight:bold;
+	font-size:20px;
+}
+
+#page{
+	padding-bottom:200px;
+}
+
+.vert-offset-top-10 {
+	margin-top:10em;
+}
+
+.vert-offset-top-5 {
+	margin-top:5em;
+}
+
+.vert-offset-top-1 {
+	margin-top:1em;
+}
+
+.gros-tmp{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+/****************************** page voyages ***********************/
+
+section{
+	padding-top:120px;
+	padding-bottom:40px;
+}
+
+.button{
+	margin-top:50px;
+}
