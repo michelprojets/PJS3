@@ -1,0 +1,61 @@
+/*style css*/
+
+.land{
+	fill: #CCCCCC;
+	fill-opacity: 1;
+	stroke: black;
+	stroke-opacity: 1;
+	stroke-width:1.5;
+}
+
+#GL-QA:hover {
+	fill: #3D67E6;
+}
+
+#GL-NA:hover {
+	fill: #3D67E6;
+}
+
+#GL-QE:hover {
+	fill: #3D67E6;
+}
+
+#GL-KU:hover {
+	fill: #3D67E6;
+}
+
+#GL-SM:hover {
+	fill: #3D67E6;
+}
+
+#GL-PI:hover {
+	fill: #3D67E6;
+}
+
+#GL-QA:active {
+	fill: #01279C;
+}
+
+#GL-NA:active {
+	fill: #01279C;
+}
+
+#GL-QE:active {
+	fill: #01279C;
+}
+
+#GL-KU:active {
+	fill: #01279C;
+}
+
+#GL-SM:active {
+	fill: #01279C;
+}
+
+#GL-PI:active {
+	fill: #01279C;
+}
+
+#GL-PI: {
+	fill:white;
+}

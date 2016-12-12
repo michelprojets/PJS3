@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,23 +17,23 @@
   <body>
     <div class="container">
 	
-		<header class="row">
+		<header class="row vert-offset-top-5">
 			<div class="col-md-12 gros-tmp">
-				VOYAGES AU GROENLAND
+				<h1>VOYAGES AU GROENLAND</h1>
 			</div>
 		</header>
 		
-		<div class="row" id="page">
+		<div class="row vert-offset-top-3" id="page">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="vert-offset-top-10 col-sm-offset-5 col-sm-2">
-						<p>Menu</p>
+					<div class="vert-offset-top-5 col-sm-offset-5 col-sm-2" id="menu-titre">
+						<h2>Menu :</h2>
 					</div>
 				</div>
 				<div class="row">	
 					<nav class="vert-offset-top-1 col-md-offset-3 col-md-6">
 						<div class="row">	
-							<nav class="vert-offset-top-2 col-md-offset-1 col-md-10">
+							<div class="vert-offset-top-2 col-md-offset-1 col-md-10 sous-nav">
 								<ul class="list-group list-unstyled">
 									<li>
 										<a class="list-group-item" href="Accueil.html"><p>Accueil</p></a>
@@ -45,14 +45,14 @@
 										<a class="list-group-item" href="#contacts"><p>Contacts</p></a>
 									</li>
 								</ul>
-							</nav>
+							</div>
 						</div> 
 					</nav>
 				</div>
 				<div class="row">	
 					<nav class="vert-offset-top-1 col-sm-offset-4 col-sm-4">
 						<div class="row">	
-							<nav class="vert-offset-top-2 col-md-offset-1 col-md-10">
+							<div class="vert-offset-top-2 col-md-offset-1 col-md-10 sous-nav">
 								<ul class="list-group list-unstyled">
 									<li>
 										<a class="list-group-item" href="Inscription.html"><p>Inscription</p></a>
@@ -61,17 +61,63 @@
 										<a class="list-group-item" href="Authentification.html"><p>Authentification</p></a>
 									</li>
 								</ul>
-							</nav>
+							</div>
 						</div> 
 					</nav>
 				</div>
+				<div class="row">
+					<div class="vert-offset-top-10 col-md-offset-1 col-md-10" id="carte">
+						<div class="row">
+							<div class="vert-offset-top-1 col-sm-offset-1 col-sm-10">
+								<h2 id="carte-titre">Carte du Groenland :</h2>
+								<h1 class="nom-region" id="QA">Qaasuitsup Kommunia</h1>
+								<h1 class="nom-region" id="NA">Nationalparken</h1>
+								<h1 class="nom-region" id="QE">Qeqqata Kommunia</h1>
+								<h1 class="nom-region" id="KU">Kommune Kujalleq</h1>
+								<h1 class="nom-region" id="SM">Kommuneqarfik Sermersooq</h1>
+								<h1 class="nom-region" id="PI">Pituffik</h1>
+							</div>
+						</div>
+						<object data="greenlandHigh.svg" width="800" height="1200" type="image/svg+xml"> 
+							<embed src="greenlandHigh.svg" type="image/svg+xml"/> 
+						</object>
+					</div>
+				</div>
 			</div>
 		</div>
-
 		
-		<footer class="row" id="contacts">
-			<div class="col-md-12 gros-tmp">
-				Footer
+		<footer class="row vert-offset-top-3" id="contacts">
+			<div class="col-md-12 panel panel-info">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<h2>Contacts</h2>
+					</div>
+				</div>
+				<div class="panel-body list-group">
+					<div class="list-group-item list-group-item-info">
+						<p>
+							<span>
+								<a href="https://mail.google.com">
+									<img src="images/gmail.png" alt="gmail">
+								</a>
+							</span>
+							E-mail : VoyagesGroenland @gmail.com
+						</p>
+					</div>
+					<div class="list-group-item list-group-item-info">
+						<p>
+							<span>
+								<a href="https://twitter.com">
+									<img src="images/twi.png" alt="twitter">
+								</a>
+							</span>
+							Twitter : @Voyages_groenland	
+						</p>
+					</div>
+				</div>
+				<div class="panel-footer">
+					<p>© Copyright 2016 / IUT Paris Descartes / Yoeung Michel & Rouzaud Pierre</p>
+				</div>
 			</div>
 		</footer>
 		

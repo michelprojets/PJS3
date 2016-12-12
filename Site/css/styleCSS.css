@@ -2,24 +2,53 @@
 
 body{
 	background-image:url("../images/groenland.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+header, footer, footer .panel{
+	background-color:rgba(139,255,248,0.7);
 }
 
 [class*="col-"], #page{
-	background-color: transparent;
-	border-style:solid;
+/*	border-style:solid;
 	border-color:yellow;
 	border-width:5px;
-	border-radius:2px;
+	border-radius:2px;*/
 	text-align: center;
-	color:yellow;
+	color:white;
 	font-weight:bold;
-	font-size:20px;
 }
 
 #page{
-	padding-bottom:200px;
+	padding-bottom:50px;
+	background-color:blue;
+	background-color:rgba(75,0,130,0.6);
+}
+
+h1{
+	color:#05266F;
+}
+
+h1, h2, h3 {
+	font-family:"Times New Roman";
+}
+
+p {
+	font-family:"Times New Roman";
+	font-size:medium;
+	color:white;
+}
+
+footer p{
+	color:#05266F;
+}
+
+#menu-titre, #carte-titre{
+	border-style:solid;
+	border-color:white;
+	border-radius:2px;
+	border-width:1px;
 }
 
 .vert-offset-top-10 {
@@ -30,41 +59,77 @@ body{
 	margin-top:5em;
 }
 
+.vert-offset-top-3 {
+	margin-top:3em;
+}
+
 .vert-offset-top-2 {
-	margin-top:1em;
+	margin-top:2em;
 }
 
 .vert-offset-top-1 {
 	margin-top:1em;
 }
 
-.gros-tmp {
-	padding-top:25px;
-	padding-bottom:25px;
-}
-
 /****************************** page accueil ***********************/
 
 #page nav {
-	background-color:#BBBBBB;
+	background-color:rgba(139,255,248,0.7);
+}
+
+.sous-nav ul{
+	background-color:rgba(139,255,248,0.7);
 }
 
 ul li .list-group-item {
-	background-color:#2576D3;
+	background-color:#05266F;
 }
 
 ul li .list-group-item:hover {
-	background-color:white;
+	background-color:#00E6FF;
 }
 
+/* carte SVG */
+
+object {
+	margin-top:50px;
+}
+
+#carte{
+	overflow:scroll;
+}
+
+#carte h1{
+	color:white;
+}
+
+.nom-region{
+	display:none;
+}
+
+/*
+#QA{
+	display:block;
+}
+*/
 
 /****************************** page voyages ***********************/
 
 section{
-	padding-top:120px;
-	padding-bottom:40px;
+	padding-bottom:20px;
 }
 
-.button{
-	margin-top:50px;
+small{
+	margin-top:15px;
+	background-color:rgba(245,245,245,0.7);
+}
+
+em{
+	font-family:"Times New Roman";
+}
+
+.btn {
+	font-size:large;
+	border-color:white;
+	border-width:2px;
 }
