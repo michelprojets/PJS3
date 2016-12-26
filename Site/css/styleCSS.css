@@ -1,13 +1,26 @@
 /*style css*/
 
+
+/* couleur : gris 55,69,88 blanc 241,242,244 bleu le plus f 2,119,194 bleu clair 113,183,242
+	bleu 6,132,203
+*/
+ 
 body{
 	background-image:url("../images/groenland.jpg");
 	background-size:100%;
 	background-attachment:fixed;
+
 }
 
-header, footer, footer .panel{
-	background-color:rgba(139,255,248,0.7);
+header, footer{
+	/*background-color:rgba(139,255,248,0.7);*/
+	/*background-color:rgba(113,183,242,0.7);*/
+	background-color:rgba(55,69,88,0.9);
+}
+
+footer{
+	
+	padding:5%;
 }
 
 [class*="col-"], #page{
@@ -23,15 +36,17 @@ header, footer, footer .panel{
 #page{
 	padding-bottom:50px;
 	background-color:blue;
-	background-color:rgba(75,0,130,0.6);
+	/*background-color:rgba(75,0,130,0.6); https://color.adobe.com/fr/%E9%A2%98%E5%9B%BE%E5%8E%9F%E5%9B%BE-color-theme-8996238/?showPublished=true*/
+	background-color:rgba(55,69,88,0.9);
 }
 
 h1{
-	color:#05266F;
+	color:#F1F2F4;
 }
 
 h1, h2, h3 {
 	font-family:"Times New Roman";
+	
 }
 
 p {
@@ -44,12 +59,14 @@ footer p{
 	color:#05266F;
 }
 
+
 #menu-titre, #carte-titre{
 	border-style:solid;
 	border-color:white;
 	border-radius:2px;
 	border-width:1px;
 }
+
 
 .vert-offset-top-10 {
 	margin-top:10em;
@@ -74,19 +91,20 @@ footer p{
 /****************************** page accueil ***********************/
 
 #page nav {
-	background-color:rgba(139,255,248,0.7);
+	background-color:rgba(113,183,242,0.7);
 }
 
 .sous-nav ul{
-	background-color:rgba(139,255,248,0.7);
+	background-color:rgba(113,183,242,0.7);
 }
 
 ul li .list-group-item {
-	background-color:#05266F;
+	/*background-color:#05266F;*/
+	background-color:#0277C2;
 }
 
 ul li .list-group-item:hover {
-	background-color:#00E6FF;
+	background-color:#0684CB;
 }
 
 /* carte SVG */
@@ -133,3 +151,125 @@ em{
 	border-color:white;
 	border-width:2px;
 }
+
+/************************* sprite ****************************/
+
+@media(max-width:900px){
+	
+#navlist{
+	display:none;
+}	
+	
+}
+#navlist li, #navlist a{
+	height: 50px;
+    display:block;
+	list-style: none;
+
+	
+}
+#navlist a{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	padding-top:6%;	
+	color:black;
+}
+
+
+#navlist ul {
+	margin-left:10px;
+	margin-top:-50px;
+	display:none;
+}
+
+#navlist li:hover ul{
+	display:block;
+}
+
+.test{
+	width: 180px;
+	height: 50px;
+	text-decoration: none;		
+}
+
+.rouge{
+	background: url('../images/sprite_transport.png') no-repeat -1px -110px;
+}
+
+.orange{
+	background: url('../images/sprite_transport.png') no-repeat -1px -200px;
+}
+
+.orange1{
+	background: url('../images/sprite_transport.png') no-repeat -2px -280px;
+}
+
+.jaune{
+	background: url('../images/sprite_transport.png') no-repeat -2px -350px;
+}
+
+#velo{
+	background: url('../images/sprite_transport.png') no-repeat -1px -1px;
+	width: 50px;
+	height: 50px;
+}
+
+#avion{
+	background: url('../images/sprite_transport.png') no-repeat  -52px -1px;
+	width: 50px;
+	height: 50px;	
+}
+
+#marche{
+	background: url('../images/sprite_transport.png') no-repeat -103px -1px;
+	width: 50px;
+	height: 50px;
+}
+
+#voiture{
+	background: url('../images/sprite_transport.png') no-repeat -154px -1px;
+	width: 50px;
+	height: 50px;
+}
+
+#velo:hover{
+	background: url('../images/sprite_transport.png') no-repeat -1px -52px;
+	transition:0.8s;
+}
+
+#avion:hover{
+	background: url('../images/sprite_transport.png') no-repeat -52px -52px;	
+	transition:0.8s;	
+}
+
+#marche:hover{
+	background: url('../images/sprite_transport.png') no-repeat -103px -52px;
+	transition:0.8s;	
+}
+
+#voiture:hover {
+	background: url('../images/sprite_transport.png') no-repeat -154px -52px;
+	transition:0.8s;
+}
+
+.test :hover{	
+	text-decoration: none;
+	background: url('../images/sprite_transport.png') no-repeat -2px -420px;
+}
+
+#navlist{
+	position: fixed;
+	left: 0;
+	top: 40%;
+	margin-top: -2.5em;
+	padding:10px;
+	border-style:solid;
+	border-color:#374558;
+	border-width:2px;
+	border-radius:2px;
+	background-color:#374558;
+	z-index: 5;
+}
+
+
