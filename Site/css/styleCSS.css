@@ -13,7 +13,43 @@ header, footer{
 	/*background-color:rgba(139,255,248,0.7);*/
 	/*background-color:rgba(113,183,242,0.7);*/
 	background-color:rgba(55,69,88,0.9);
+	
+	
 }
+
+/* ************************* Menu **************************/
+
+header{
+	padding:3%;
+	
+
+}
+.navbar  {
+	
+	text-align:center;
+	border-right-style:solid;
+	
+	border-color:white;
+	border-width:0.3px;
+
+	
+}
+.navbar li  {
+	border-right-style:solid;
+	border-left-style:solid;
+	border-color:white;
+	border-width:0.3px;
+	
+	
+}
+
+.navbar li:hover{
+	background-color:rgba(113,183,242,0.7);
+}
+
+
+
+/***********************************************************/
 
 footer{
 	
@@ -31,6 +67,8 @@ footer{
 }
 
 #page{
+/*	margin-top:15%;
+	margin-bottom:30%;*/
 	padding-bottom:50px;
 	background-color:blue;
 	/*background-color:rgba(75,0,130,0.6); https://color.adobe.com/fr/%E9%A2%98%E5%9B%BE%E5%8E%9F%E5%9B%BE-color-theme-8996238/?showPublished=true*/
@@ -55,6 +93,7 @@ p {
 footer p{
 	color:#05266F;
 }
+
 
 
 #menu-titre, #carte-titre{
@@ -149,97 +188,100 @@ em{
 	border-width:2px;
 }
 
-/************************* sprite ****************************/
+/************************* sprite****************************/
 
-@media(max-width:900px){
-	
-#navlist{
-	display:none;
-}	
-	
-}
 #navlist li, #navlist a{
 	height: 50px;
     display:block;
 	list-style: none;
+	text-align:center;
+	
 
 	
 }
 #navlist a{
+	
 	border-style:solid;
 	border-color:black;
 	border-width:1px;
 	padding-top:6%;	
 	color:black;
+	font-weight: bold;
 }
 
 
+
 #navlist ul {
+	
 	margin-left:10px;
 	margin-top:-50px;
 	display:none;
 }
 
 #navlist li:hover ul{
+	
 	display:block;
 }
-
 .test{
 	width: 180px;
 	height: 50px;
 	text-decoration: none;		
 }
-
 .rouge{
+	
 	background: url('../images/sprite_transport.png') no-repeat -1px -110px;
+	
+	
 }
-
 .orange{
+	
 	background: url('../images/sprite_transport.png') no-repeat -1px -200px;
+	
 }
-
 .orange1{
+	
 	background: url('../images/sprite_transport.png') no-repeat -2px -280px;
+	
 }
-
 .jaune{
+	
 	background: url('../images/sprite_transport.png') no-repeat -2px -350px;
+	
 }
-
 #velo{
 	background: url('../images/sprite_transport.png') no-repeat -1px -1px;
 	width: 50px;
 	height: 50px;
-}
 
+}
 #avion{
 	background: url('../images/sprite_transport.png') no-repeat  -52px -1px;
 	width: 50px;
 	height: 50px;	
+	
 }
 
 #marche{
 	background: url('../images/sprite_transport.png') no-repeat -103px -1px;
 	width: 50px;
 	height: 50px;
+	
 }
 
 #voiture{
 	background: url('../images/sprite_transport.png') no-repeat -154px -1px;
 	width: 50px;
 	height: 50px;
+	
 }
-
 #velo:hover{
 	background: url('../images/sprite_transport.png') no-repeat -1px -52px;
 	transition:0.8s;
 }
-
 #avion:hover{
 	background: url('../images/sprite_transport.png') no-repeat -52px -52px;	
 	transition:0.8s;	
 }
-
 #marche:hover{
 	background: url('../images/sprite_transport.png') no-repeat -103px -52px;
 	transition:0.8s;	
@@ -249,15 +291,14 @@ em{
 	background: url('../images/sprite_transport.png') no-repeat -154px -52px;
 	transition:0.8s;
 }
-
 .test :hover{	
 	text-decoration: none;
 	background: url('../images/sprite_transport.png') no-repeat -2px -420px;
+	
 }
-
 #navlist{
 	position: fixed;
-	left: 0;
+	/*left: 0;*/
 	top: 40%;
 	margin-top: -2.5em;
 	padding:10px;
@@ -268,11 +309,12 @@ em{
 	background-color:#374558;
 	z-index: 5;
 }
+/************************* sprite****************************/
 
-/******************* page reservation *****************************/
-
-.form-group{	
+.form-group{
+	
 	margin-top:5%;
+	
 }
 
 
